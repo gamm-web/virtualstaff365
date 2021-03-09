@@ -1,0 +1,23 @@
+/*_variables.scss */
+
+/* Body Text Styles */
+// $text-color: black;
+// $base-font-size: 16px;
+// $base-font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+// $base-font-weight: 400; 
+$primary-color: #3FA2F7;
+$secondary-color: #E4F1FD;
+
+%border_2{
+    border:2px solid $primary-color;
+}
+
+%border_3{
+    border:3px solid $primary-color;
+}
+
+%phone_parts{
+    border:2px solid $primary-color;
+    background-color: $secondary-color;
+    position: absolute;
+}
